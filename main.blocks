@@ -1,1 +1,18 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="Q)K}H}hKZt_;)pK2$73+" x="0" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="VuT9$)MMy):YW0}#WI}F">Player</variable><variable type="KIND_SpriteKind" id="}QyKVR5[bOi08g$}|A=a">Projectile</variable><variable type="KIND_SpriteKind" id="P9C])EfKw*GUF)=3}ISg">Food</variable><variable type="KIND_SpriteKind" id="iHP/J(Y@98.NHx^M8tar">Enemy</variable><variable id="Q3l+Q{6=_{?z1U3%oFcr">mySprite</variable><variable id="T/Hs`E-]SEy4B@2d=!VM">duck</variable></variables><block type="pxt-on-start" id="Q)K}H}hKZt_;)pK2$73+" x="0" y="0"><statement name="HANDLER"><block type="gamesetbackgroundcolor" id="`]x(_fZuh+OEOh+WOl|`"><value name="color"><shadow type="colorindexpicker" id="rK6p6d~CxSz;xI@:ELZw"><field name="index">7</field></shadow></value><next><block type="tilemap_editor" id="xTH9%j{=ahE{luJu3=zZ"><field name="tilemap">tilemap`level1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level1"}}</data><next><block type="variables_set" id="_jsT03uJHm/{cf]/{+Ym"><field name="VAR" id="T/Hs`E-]SEy4B@2d=!VM">duck</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="13^6QimB3eQGR),genJa"><value name="img"><shadow type="screen_image_picker" id="Xp*TTS4UtJ{9r4fsZn^x"><field name="img">img`
+. . . . . . . . . . b 5 b . . . 
+. . . . . . . . . b 5 b . . . . 
+. . . . . . . . . b c . . . . . 
+. . . . . . b b b b b b . . . . 
+. . . . . b b 5 5 5 5 5 b . . . 
+. . . . b b 5 d 1 f 5 5 d f . . 
+. . . . b 5 5 1 f f 5 d 4 c . . 
+. . . . b 5 5 d f b d d 4 4 . . 
+b d d d b b d 5 5 5 4 4 4 4 4 b 
+b b d 5 5 5 b 5 5 4 4 4 4 4 b . 
+b d c 5 5 5 5 d 5 5 5 5 5 b . . 
+c d d c d 5 5 b 5 5 5 5 5 5 b . 
+c b d d c c b 5 5 5 5 5 5 5 b . 
+. c d d d d d d 5 5 5 5 5 d b . 
+. . c b d d d d d 5 5 5 b b . . 
+. . . c c c c c c c c b b . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"myImages.image1"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="OXy(sUVXvx@[aCaf8_w="><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></next></block></statement></block></xml>
